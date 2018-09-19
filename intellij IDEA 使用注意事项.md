@@ -105,7 +105,7 @@ pom需要添加以下的配置：
 添加以上配置后，项目就支持了热部署，非常方便集成测试。
 
 
-## jar包或者war包之项目打包
+## 项目打包之jar包、war包
 
 > 1、mvn 不是内部命令
 
@@ -162,7 +162,7 @@ java -jar build/libs/mymodule-0.0.1-SNAPSHOT.jar
 
 打成war包一般可以分两种方式来实现，第一种可以通过eclipse这种开发工具来导出war包，另外一种是使用命令来完成，这里主要介绍后一种
 
-**1、maven项目，修改pom包**
+**1、maven项目，修改pom.xml**
 
 将
 
@@ -300,5 +300,3 @@ chmod +x /etc/init.d/yourapp
 ```shell
 service yourapp start|stop|restart
 ```
-
-
