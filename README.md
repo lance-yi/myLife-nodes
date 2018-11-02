@@ -1,2 +1,8 @@
 # myLife-nodes
-我的学习笔记中转站
+
+>  
+> STAY HUNGRY. 
+> 
+>  STAY FOOLISH.
+> 
+
