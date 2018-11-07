@@ -1,7 +1,7 @@
 # myLife-nodes
 
 >  
-> STAY HUNGRY. 
+>  STAY HUNGRY. 
 > 
 >  STAY FOOLISH.
 > 
