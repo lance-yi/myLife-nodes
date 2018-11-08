@@ -16,10 +16,8 @@
 
 > 签名：STAY HUNGRY.  STAY FOOLISH.
 
-** 行远自迩，登高自卑，与君共勉。**    
 
-
-###  wap端适配包 [wap-rem](/wap-rem)
+###  wap端适配包 [【wap-rem】](https://github.com/lance-yi/myLife-nodes/tree/master/6-Parapack/wap-rem)
 
 - base.css 重置页面样式
 - 使用rem布局、100px=1rem
