@@ -1,8 +1,14 @@
-# myLife-nodes
+## [前端秘密花园](http://www.lanceyi.com)
 
->  
->  STAY HUNGRY. 
-> 
->  STAY FOOLISH.
-> 
+
+> 宗旨：我们不生产代码，我们只是代码的搬运工。
+
+> 目的：路漫漫其修远兮，吾将上下而求索。
+
+> 座右铭：生活不止裆下的苟且，还有未知的bug和看不懂的code。
+
+> 签名：STAY HUNGRY.  STAY FOOLISH.
+
+** 行远自迩，登高自卑，与君共勉。**  
+
 

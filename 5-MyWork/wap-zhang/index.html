@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <meta name="description" content="不超过150个字符"/>
+    <meta name="keywords" content=""/>
+    <meta content="caibaojian" name="author"/>
+    <style>
+        @charset "utf-8";
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: none;
+        vertical-align: baseline;
+        /* translate3d会开启GPU加速,提高性能 */
+        transform: translate3d(0, 0, 0);
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+
+    html {
+        height: 100%;
+        /* 设置根节点字体大小为100px,方便计算; */
+        font-size: 100px;
+    }
+
+    body {
+        
+        /* 移动端最佳字体选择顺序 */
+        font-family: "Helvetica Neue", "Helvetica", "STHeiTi", "sans-serif";
+        /* 浏览器宽度在600px~1000px变化的时候，html根元素的font-size大小是18px~22px之间对应变化 */
+        /* font-size: calc(18px + 4 * (100vw - 600px) / 400); */
+    }
+    /* 解决IOS下滚动条滑动不流畅的问题 */
+    /* div{
+        -webkit-overflow-scrolling:touch;
+    } */
+
+    html,
+    body {
+        /* 禁止用户在网站上选择文本 */
+        -webkit-user-select: none;
+        user-select: none;
+    }
+    /* 设置a标签的美化样式 */
+
+    a {
+        text-decoration: none;
+    }
+
+    a:active {
+        background-color: transparent;
+    }
+
+    a:active,
+    a:hover {
+        outline: 0 none;
+    }
+
+    a:focus {
+        outline: 1px dotted;
+    }
+
+    a,
+    img {
+        border: 0 none;
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        vertical-align: top;
+        /* 禁用系统默认菜单 */
+        -webkit-touch-callout: none;
+    }
+
+    button,
+    select {
+        text-transform: none;
+    }
+
+    i,
+    em,
+    b {
+        font-style: normal;
+        font-weight: normal;
+    }
+    /* 美化input type=number类型 */
+
+    input[type=number] {
+        -moz-appearance: textfield;
+        -webkit-appearance: textfield;
+        appearance: textfield;
+    }
+
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        margin: 0;
+    }
+    /* 美化placeholder属性/ */
+
+    input::-webkit-input-placeholder {
+        color: #ccc;
+        font-size: 14px;
+    }
+
+    input:focus::-webkit-input-placeholder {
+        color: green;
+    }
+
+    input::-webkit-input-speech-button {
+        display: none;
+    }
+
+    textarea {
+        overflow: auto;
+        resize: vertical;
+    }
+
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+        -webkit-appearance: none;
+        /* border:none; */
+        outline: none;
+    }
+
+    a,
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+        /*去掉a、input和button点击时的蓝色外边框和灰色半透明背景*/
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
+    ol,
+    ul {
+        list-style: none;
+        list-style-image: none;
+        list-style-type: none;
+    }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+    caption,
+    th,
+    td {
+        text-align: left;
+        font-weight: normal;
+        vertical-align: middle;
+    }
+    body{
+        height: 100%;
+        min-width:320px;
+        max-width:750px;
+        margin:0 auto;
+        overflow: hidden;
+        background: #fff;
+    }
+    .bg1Img{
+        width:100%;
+        
+    }
+    .dayCard{
+        width: 1.98rem;
+        height: .54rem;
+        position: absolute;
+        top: .71rem;
+        left: .28rem;
+    }
+    .cashShowCon{
+        width: 90%;
+        height: 2rem;
+        background: url('img/cashShowbg.png') no-repeat center;
+        background-size: 100% 100%;
+        display: -webkit-flex;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin: -25% auto 0;
+    }
+    .cashShowCon .item{
+        text-align: center;
+        margin: 0 .7rem;
+    }
+    .cashShowCon .desc{
+        font-size: .24rem;
+        color: #90723d;
+        margin-top: .7rem;
+        margin-bottom: .3rem;
+    }
+    .cashShowCon .digital{
+        font-size: .3rem;
+        color: #fb3b28;
+    }
+    .bannerImg{
+        display: block;
+        margin: .2rem auto;
+    }
+    .featureBox{
+        width: 100%;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: .2rem auto;
+    }
+    .featureBox .item{
+        width: 3.37rem;
+        height: 3.37rem;
+        max-width: 50%;
+    }
+    .tabCon{
+        background: #fff;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+        width: 7.5rem;
+        box-sizing: border-box;
+        padding: 0 .5rem
+    }
+    .tabCon .item{
+        width: .46rem;
+        height: .73rem;
+        display: block;
+        margin-top: .1rem;
+    }
+    .tabCon .item.on{
+        width: .61rem;
+        height: .79rem;
+        margin-top: 0;
+    }
+    .footer{
+        position: fixed;
+        width: 7.5rem;
+        height: .95rem;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 9999;
+    }
+    </style>
+</head>
+
+<body>
+    <div style="position: relative;box-sizing: content-box;height: 100%;overflow: auto;">
+        <img src="img/bg1.png" class="bg1Img">
+        <img src="img/card.png" class="dayCard">
+        <div class="cashShowCon">
+            <div class="item">
+                <div class="desc">当前余额(元)</div>
+                <div class="digital">11111</div>
+            </div>
+            <div class="item">
+                <div class="desc">当前余额(元)</div>
+                <div class="digital">22222</div>
+            </div>
+        </div>
+        <img src="img/banner1.png" class="bannerImg">
+        <div class="featureBox">
+            <img src="img/item1.png" class="item">
+            <img src="img/item3.png" class="item">
+            <img src="img/item4.png" class="item">
+            <img src="img/item2.png" class="item">
+        </div>
+        <img src="img/banner2.png" class="bannerImg" style="height: 2rem;">
+        <div style="margin-bottom: .95rem;height: 1px;"></div>
+    </div>
+    <div class="tabCon footer">
+        <div class="item"><img src="img/fuli.png"></div>
+        <div class="item"><img src="img/yaoqin.png"></div>
+        <div class="item on"><img src="img/chengzuan.png"></div>
+        <div class="item"><img src="img/tixian.png"></div>
+        <div class="item"><img src="img/wode.png"></div>
+    </div>
+</body>
+<script src="./js/flex.js"></script>
+</html>
