@@ -48,7 +48,7 @@ window['adaptive'].init(); // 调用初始化方法
 - 封装axios库，针对不同服务器，请求方式进行了简单的封装，直接在 main.js 全局注册到 vue.prototype 下,组件直接通过 this 访问
 
 
-### PC端JQ版 [](https://github.com/lance-yi/myLife-nodes/tree/master/6-Parapack/web-jq)
+### PC端JQ版 [【web-jq】](https://github.com/lance-yi/myLife-nodes/tree/master/6-Parapack/web-jq)
 
 
 - 文件说明:
