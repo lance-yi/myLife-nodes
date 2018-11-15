@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>首页</title>
+<link rel="stylesheet" href="./css/default.css" />
+<link rel="stylesheet" href="./css/index.css" />
+</head>
+<body>
+<!--头部-->
+<div id="header" v-html="headerObj">
+	{{ headerObj }}
+</div>
+<!--主要内容-->
+<div id="htmlPage">
+	<!--banner-->
+	<div class="banner" v-html="bannerMain">
+		{{ bannerMain }}
+	</div>
+	<!--页面主体部分-->
+	<div class="mainDiv">
+		<!--每周公告-->
+		<div class="noticeDiv">
+			<div class="notice w1200 cleafix">
+				<div class="line"></div>
+				<div class="line1"></div>
+				<ul>
+					<notice-item
+						v-for="notice in noticeList"
+						v-bind:notice="notice">
+					</notice-item>
+				</ul>
+			</div>
+		</div>
+		<div class="divOne main w1200 cleafix">
+			<div id="moneyType" class="mainLeft fl">
+				<h2>货币类型</h2>
+			</div>
+			<div class="mainRight fr">
+				<div class="mainTop cleafix">
+					<!--每日精选-->
+					<div class="siftDiv">
+						<div class="title">
+							<i></i>
+							<h2>每日精选</h2>
+							<span>智能潮货 嗨购不停</span>
+						</div>
+						<ul class="siftList cleafix">
+							<daily-item
+								v-for="daily in dailyList"
+								v-bind:daily="daily"
+								v-on:click="goods_details(daily)">
+							</daily-item>
+						</ul>
+					</div>
+				</div>
+				<!--热门推荐-->
+				<div class="divOne hotRecom">
+					<div class="title">
+						<i></i>
+						<h2>热门推荐</h2>
+						<span>智能潮货 嗨购不停</span>
+					</div>
+					<ul class="hotList cleafix">
+						<hot-item
+							v-for="hot in hotList"
+							v-bind:hot="hot"
+							v-on:click="goods_details(hot)">
+						</hot-item>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--尾部-->
+<div id="footer" v-html="footerObj">
+	{{ footerObj }}
+</div>
+<script type="text/javascript" src="./js/jquery-1.8.0.min.js" ></script>
+<script type="text/javascript" src="./js/vue.js" ></script>
+<script type="text/javascript" src="./js/index.js" ></script>
+<!--接口前缀js 公共-->
+<script type="text/javascript" src="./js/common.js" ></script>
+<!--header-->
+<script type="text/javascript" src="./js/header.js" ></script>
+<!--footer-->
+<script type="text/javascript" src="./js/footer.js" ></script>
+<!--mainLeft-->
+<script type="text/javascript" src="./js/mainleft.js" ></script>
+<script>
+	
+	//banner
+	var bannerMain=
+		'<div class="bannerTxt w1200">\
+			<h2>bttmall</h2>\
+			<p>bttmall  最新商城系统，整合支持入住并开发独立的商品交易区。保持机构或者社区推荐者拥有自己的交易区，以及制定规则的权利。</p>\
+		</div>';
+	//每周公告
+	Vue.component('notice-item', {
+		props: ['notice'],
+		template:
+		'<li>\
+			<a href="javascript:;">\
+				<span>{{notice.title}}</span>\
+				<em>（{{notice.time}}）</em>\
+				<strong>&gt;</strong>\
+			</a>\
+		</li>'
+	})
+	var	noticeList= [
+		{ "title":"lbtmall 每周公告","time":"2018-09-10"},
+		{ "title":"lbtmall 每周公告1","time":"2018-09-11"},
+		{ "title":"lbtmall 每周公告2","time":"2018-09-12"},
+		{ "title":"lbtmall 每周公告3","time":"2018-09-13"},
+		{ "title":"lbtmall 每周公告4","time":"2018-09-14"}];
+	//每日精选
+	Vue.component('daily-item', {
+		props:['daily'],
+		template:
+		'<li>\
+			<a href="javascript:;">\
+				<img :src="photo_url + daily.imageUrl " />\
+				<h2>{{daily.goodsName}}</h2>\
+				<p>{{daily.inventoryIntroduce}}</p>\
+				<h3>¥ {{daily.price}}</h3>\
+			</a>\
+		</li>'
+	})
+	//热门推荐
+	Vue.component('hot-item', {
+		props: ['hot'],
+		template: 
+		'<li>\
+			 <div class="hotDiv">\
+				<span v-if="hot.ifShow" class="hotIco">自营</span>\
+				<a href="javascript:;">\
+					<img :src="photo_url+hot.imageUrl" />\
+					<h2>{{hot.goodsName}}</h2>\
+					<p>{{hot.inventoryIntroduce}}</p>\
+					<h3>¥ {{hot.price}}</h3>\
+				</a>\
+				<div class="btnDiv">\
+					<a href="javascript:;">立即购买</a>\
+				</div>\
+			</div>\
+		</li>'
+	});
+	var htmlPage=new Vue({
+		el:'#htmlPage',
+	    data: { 
+	        bannerMain: bannerMain, //banner图
+	        noticeList:noticeList, //每周公告
+	        dailyList:[], //每日精选
+	        hotList:[] //热门推荐
+	        
+	    }, 
+	    methods: {
+	    	goods_details(obj){
+	    		location.href="./goodsDetails.html?goodsId="+obj.goodsId;
+			}
+	    }
+	});
+	//每日精选
+	var selling_data={
+		"url":"/mall/backend/homepage/queryHomePageCarefullyChosen",
+		"data":null,
+		"type":"get",
+		"token":token
+	};
+	var selling_list=simplifyRequest(selling_data);
+	if(isNotBlank(selling_list)){
+		if(selling_list.success){
+			htmlPage.dailyList=selling_list.data;
+		}else{
+			alert(selling_list.msg);
+		}
+	}
+	//热门推荐
+	var hot_data={
+		"url":"/mall/backend/homepage/queryHomePageRecommend",
+		"data":null,
+		"type":"get",
+		"token":token
+	};
+	var hot_list=simplifyRequest(hot_data);
+	if(isNotBlank(hot_list)){
+		htmlPage.hotList=hot_list.data;
+	}else{
+		alert(hot_list.msg);
+	}
+	 
+	
+</script>
+</body>
+</html>

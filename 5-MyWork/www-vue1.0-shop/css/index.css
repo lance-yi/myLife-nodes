@@ -1,0 +1,637 @@
+﻿.goodsMain ul li labelbody{ background: #fff;}
+.divOne{ margin-top: 20px;}
+/***************首页****************/
+.topDiv{ width: 100%; height: auto; background: #181B2A ; min-width: 1200px; border-bottom: 1px solid #262A42;}
+.top{ height: auto;}
+.top h2{ float: right; font-size: 12px; color: #C7CCE6;}
+.top h2 a{float: left; margin-right: 5px; display: inline-block; height: 34px; line-height: 34px; color: #C7CCE6;}
+.top h2 span{height: 34px; line-height: 34px;float: left; display: inline-block;}
+.top h2 i{float: left; margin: 11px 20px 11px 15px; display: block; width: 1px; height: 12px; background: #262A42;}
+.top h2 a:hover{color: #8d434b;}
+/*header*/
+.headerDiv{ width: 100%; background: #181B2A; min-width: 1200px;}
+.header{ height: auto;}
+.logo{ padding: 18px 0; display: block;}
+.logo a{ float: left; display: block; width: 213px; height: auto;}
+.logo a img{ display: block; width: 100%; height: 84px;}
+.logo span{ margin-left: 60px; margin-top: 38px; display: block; float: left; height: 32px; line-height: 32px; font-size: 24px; color: #fff;font-family: PingFangSC-Regular;}
+.cartBut{display: block; margin-top: 41px; width: 180px; height: 38px; line-height: 38px; font-size: 14px; color: #333; text-align: center; background: #fff;}
+.cartBut span{ position: relative; display: inline-block; padding-left: 28px; background: url(../images/shape.png) 0 center no-repeat;}
+.angleDom{ position: absolute; top: 2px; right: -20px; background: #ae4e54; display: block; width: 16px; height: 16px; line-height: 16px; text-align: center; border-radius: 100%; font-size: 12px; color: #fff;}
+.cartBut:hover span{background: url(../images/shape2.png) 0 center no-repeat; color: #b05157;}
+/*banner*/
+.banner{ background: url(../images/banner.png) center center; width: 100%; height: 280px; min-width: 1200px;}
+.banner .bannerTxt{ padding-top: 120px;}
+.banner h2{ line-height: 18px; font-size: 24px; color: #C7CCE6;}
+.banner p{ width: 516px; margin-top: 20px; line-height: 18px; font-size: 14px; color: #C7CCE6;}
+/*每周公告*/
+.noticeDiv{ width: 100%; height: auto; min-width: 1200px;}
+.notice{ position: relative; height: auto;}
+.notice ul{ background: #fff; padding: 20px 0; width: 100%; height: auto; float: left;}
+.notice ul li{ float: left; margin: 10px 177px 10px 30px; width: 242px; height: auto; font-size: 14px; color: #333;}
+.notice ul li a{ float: left; display: block; width: 100%;height: 20px; line-height: 20px; font-size: 14px; color: #333;}
+.notice ul li a span{float: left; display: block; width: 120px; margin-right: 5px; height: 20px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}
+.notice ul li a em{ width: 106px; height: 20px; overflow: hidden; display: block; float: left;}
+.notice ul li a strong{ display: block; float: right; font-weight: normal;}
+.notice .line{ position: absolute; left: 377px; top: 25px; width: 1px; height: 60px; background: #EFEFEF;}
+.notice .line1{ position: absolute; left: 826px; top: 25px; width: 1px; height: 60px; background: #EFEFEF;}
+/*页面主体部分*/
+.mainDiv{ width: 100%; padding: 20px 0 35px; height: auto; min-width: 1200px; background: #f4f4f4;}
+.mainDivOne{ padding-top: 0;}
+.main{height: auto;}
+.mainBox{ background: #fff; padding-bottom: 35px; width: 100%; min-width: 1200px;}
+/*left部分*/
+.mainLeft{ width: 270px; padding: 28px 0 0; background: #fff; height: auto;}
+.mainLeft h2{ height: 26px; padding: 0 30px; line-height: 26px; font-size: 18px; color: #333;}
+.currencyType{ padding: 24px 0 32px; width: 100%; height: auto;}
+.currencyType li{ width: 100%; height: auto; position: relative;}
+.currencyType li i{ display: none; position: absolute; width: 4px; height: 100%; background: #9B9B9B;}
+.currencyType li a{ display: block; padding: 20px 30px 24px; }
+.currencyType li.on a{ background: #F9F9F9;}
+.currencyType li.on i{ display: block;}
+.currencyType li h3{ position: relative; padding-left: 34px; height: 24px; line-height: 24px; font-size: 14px; color: #999; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}
+.currencyType li h3 img{ display: block; width: 24px; height: 24px; position: absolute; left: 0; top: 0;}
+.progressBarDiv{ position: relative; margin-top: 10px; padding: 0 44px 0 34px;}
+.progress_container{padding:0;width:165px;height:2px;overflow:hidden;background:#fff;}
+.progress_bar{height:2px;width:0px;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;background:#ccc;}
+.progressBarDiv span{ display: block; position: absolute; right: 0; top: -8px; height: 18px; line-height: 18px; font-size: 12px; color: #999;}
+/*right部分*/
+.mainRight{ width: 880px; height: auto;}
+.mainTop{ width: 100%; height: auto;}
+.siftDiv{ padding: 0 20px 0; background: #fff;}
+.title{ padding: 26px 0 20px; width: 100%; height: auto; overflow: hidden;}
+.title h2{ height: 24px; line-height: 24px; float: left; font-size: 18px; color: #333;}
+.title span{ display: block; float: left; margin-left: 28px; height: 24px; line-height: 30px; font-size: 12px; color: #999;}
+.title i{ display: block; width: 3px; height: 16px; margin-right: 7px; background: #AE4E54; float: left; margin-top: 4px;}
+/*新品上市*/
+.siftBox{ width: 100%; height: auto;}
+.siftBox a{ box-shadow: 0 0 8px #f0f0f0; display: block; width: 100%; overflow: hidden; color: #494949;}
+.siftBox a img{ display: block; width: 273px; height: 140px; float: left;}
+.siftBox a .siftTxt{border: 1px solid #f0f0f0; height: 116px; border-left: none; text-align: center; padding: 22px 22px 0; width: 77px; float: right;}
+.siftBox a .siftTxt h2{ height: 18px; width: 100%; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; line-height: 18px; font-size: 12px;}
+.siftBox a .siftTxt p{ height: 54px; overflow: hidden; line-height: 18px; font-size: 12px; color: #a3a3a3;}
+.siftBox a .siftTxt h3{ height: 22px; line-height: 22px; font-size: 18px; color: #ae4e54;}
+.siftList{ width: 100%; height: auto;}
+.siftList li{ padding-bottom: 20px; margin-right: 21px; width: 266px; height: auto; float: left;}
+.siftList li a{ padding: 10px 0; border: 1px solid #fff; color: #494949; text-align: center; display: block;}
+.siftList li img{ display: block; width: 150px; margin: 0 auto; height: 150px;}
+.siftList li h2{ margin-top: 18px; height: 18px padding: 0 30px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; line-height: 18px; font-size: 12px;}
+.siftList li p{ padding: 0 30px; height: 36px; overflow: hidden; line-height: 18px; font-size: 12px; color: #a3a3a3;}
+.siftList li h3{ padding: 5px 30px 15px; height: 22px; line-height: 22px; font-size: 18px; color: #ae4e54;}
+.siftList li a:hover{ border: 1px solid #f0f0f0;box-shadow: 0 0 8px #f0f0f0;}
+/*热门推荐*/
+.hotRecom{ padding: 0 20px 32px; height: auto; background: #fff;}
+.hotRecom ul{ width: 100%; height: auto;}
+.hotRecom ul li{ margin-bottom: 20px; width: 210px; height: auto; float: left;}
+.hotRecom ul li .hotDiv{ text-align: center; position: relative; padding: 30px 0; border: 1px solid #fff; -moz-transition: all 0.3s ease-in; -webkit-transition: all 0.3s ease-in; -o-transition: all 0.3s ease-in; transition: all 0.3s ease-in;}
+.hotRecom ul li .hotDiv:hover{border: 1px solid #f0f0f0;box-shadow: 0 0 8px #f0f0f0; }
+.hotRecom ul li .hotDiv .hotIco{ position: absolute; left: 0; top: 16px; display: block; width: 34px; height: 18px; background: #589065; font-size: 12px; color: #fff; text-align: center; line-height: 18px;}
+.hotRecom ul li a{ color: #494949; display: block;}
+.hotRecom ul li img{ display: block; width: 110px; height: 110px; margin: 0 auto;}
+.hotRecom ul li h2{ margin-top: 20px; height: 18px; width: 160px; padding: 0 25px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; line-height: 18px; font-size: 12px;}
+.hotRecom ul li p{ width: 160px; padding: 0 25px; height: 36px; overflow: hidden; line-height: 18px; font-size: 12px; color: #a3a3a3;}
+.hotRecom ul li h3{ width: 160px; padding: 0 25px; height: 22px; line-height: 22px; font-size: 18px; color: #ae4e54;}
+.btnDiv{ width: 146px; height: auto; overflow: hidden; margin: 0 auto; padding: 20px 0 0;}
+.btnDiv a{width: 66px; height: 22px; background: #EFEFEF; margin: 0 auto; border: 1px solid #EFEFEF; font-size: 12px; color: #333; text-align: center; line-height: 22px;}
+/*.btnDiv a.joinCat{ width: 76px; height: 22px; line-height: 22px; background: #fff;  border: 1px solid #EFEFEF; color: #999;}*/
+.btnDiv a:hover{ border: 1px solid #AE4E54; background: #AE4E54; color: #fff !important;}
+/*.btnDiv a.joinCat:hover{ background: #fff; color: #AE4E54 !important;}*/
+/*footer*/
+.footerDiv{ width: 100%; height: auto; background: #181B2A;}
+.footer{ padding: 75px 0; height: auto; overflow: hidden;}
+.footer .fooL{ width: 156px; height: auto;}
+.footer .fooL img{ display: block; width: 100%; height: 62px;}
+.footer .fooL p{ margin-top: 2px; text-align: center; font-size: 12px; line-height: 18px; color: #A5A6A9;}
+.footer .fooR{height: auto;}
+.footer .fooR ul{ float: left;}
+.footer .fooR ul li{ width: 180px; float: left; margin-right: 30px;}
+.footer .fooR ul li h2{ height: 32px; line-height: 32px; font-size: 14px; color: #fff;}
+.footer .fooR ul li a{ display: block; height: 30px; line-height: 30px; font-size: 12px; color: #87888e;}
+.footer .fooR ul li a:hover,
+.siftBox a:hover,
+.siftList li a:hover,
+.hotRecom ul li a:hover,
+.optimization ul li h2 a:hover{ color: #AE4E54;}
+/***************导航专题****************/
+.flagshipStore{ background: #fff; width: 100%; height: auto;}
+.flagTop{ padding: 20px 30px; height: auto;}
+.flagTop .flagImg{ width: 80px; height: 80px; border: 1px solid #f0f0f0;}
+.flagTop .flagImg img{ display: block; width: 80px; height: auto;}
+.flagTop .flagText{ width: 710px; height: auto;}
+.flagTop .flagText .flagTitle{ cursor: pointer; display: block; height: 20px; width: 100%; line-height: 20px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; font-size: 14px; color: #333;}
+.flagTop .flagText .flagTitle:hover{ color: #AE4E54;}
+.flagTop .flagText h3{ padding-top: 5px; width: 100%; height: auto; overflow: auto;}
+.flagTop .flagText h3 span{ height: 20px; padding: 0 6px; background: #589065; border-radius: 2px; line-height: 20px;  display: block; float: left; font-size: 12px; color: #fff;}
+.flagTop .flagText p{ padding-top: 5px; height: 20px; line-height: 20px; font-size: 14px; color: #000024; position: relative;}
+.flagTop .flagText p span{ display: inline-block; padding-left: 10px; color: #AE4E54;}
+.flagTop .flagText p a{ display: block; position: absolute; right: 0; top: 0; color: #4A90E2;}
+.flagTop .flagText p a:hover{ color: #AE4E54;}
+.flagBom{ position: relative; padding: 12px 0; width: 880px; background: url(../images/ico1.png) repeat;}
+.flagBom ul{ width: 100%; height: auto; float: left;}
+.flagBom ul li{ width: 156px; margin: 0 30px; float: left;}
+.flagBom ul li h2{ line-height: 18px; font-size: 12px; color: #333;}
+.flagBom ul li p{ line-height: 18px; font-size: 12px; color: #AE4E54;}
+.flagBom .flagLine{ position: absolute; top: 16px; left: 200px; width: 1px; height: 30px; border-left: 1px dashed #9B9B9B;}
+.flagBom .flagLine1{ position: absolute; top: 16px; right: 235px; width: 1px; height: 30px; border-left: 1px dashed #9B9B9B;}
+.flagBom a{ display: block; position: absolute; right: 30px; top: 30px; height: 18px; line-height: 18px; font-size: 12px; color: #4A90E2;}
+.flagBom a:hover{ color: #AE4E54;}
+/*优选推荐*/
+.optimization{ padding: 0 20px 32px; height: auto; background: #fff;}
+.optimization ul{ width: 100%; height: auto;}
+.optimization ul li{ width: 410px; height: auto; float: left;}
+.optimization ul li .optimizationDiv{ position: relative; padding: 15px 30px; border: 1px solid #fff; -moz-transition: all 0.3s ease-in; -webkit-transition: all 0.3s ease-in; -o-transition: all 0.3s ease-in; transition: all 0.3s ease-in;}
+.optimization ul li .optimizationDiv:hover{border: 1px solid #f0f0f0;box-shadow: 0 0 8px #f0f0f0; }
+.optimization ul li .optimizationiImg{ width: 110px; height: auto;}
+.optimization ul li .optimizationiImg a{ display: block;}
+.optimization ul li .optimizationiImg a img{ display: block; width: 100%; height: 110px;}
+.optimization ul li .optimizationiInfor{ width: 210px; height: auto;}
+.optimization ul li .optimizationiInfor .btnDiv{ margin: 0; padding-top: 3px;}
+.optimization ul li h2{ width: 100%; margin-top: 10px; height: 16px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; line-height: 16px; font-size: 12px;}
+.optimization ul li h2 a{color: #494949;}
+.optimization ul li p{ width: 100%; height: 16px; overflow: hidden; line-height: 16px; font-size: 12px; color: #a3a3a3;}
+.optimization ul li h3{ margin-top: 4px;  width: 100%; height: 26px; line-height: 26px; font-size: 18px; color: #ae4e54;}
+.synTab{ border-bottom: 1px solid #f5f5f5; height: auto;}
+.synTab span{ cursor: pointer; display: block; float: left; border-right: 1px solid #f5f5f5; padding: 0 18px; background: #fff; height: 28px; line-height: 28px; font-size: 12px; color: #999;}
+.synTab span.on{ color: #AE4E54;}
+.synTab span b{ font-weight: normal;}
+.synTab span em{ position: relative; display: inline-block;margin-left: 10px; width: 10px;}
+.synTab span em i{cursor: pointer; position: absolute; left: 0; display: block; width: 10px; height: 4px;}
+.synTab span em i.ico1{ top: 9px; background: url(../images/ico2.png) no-repeat;}
+.synTab span em i.ico2{ bottom: 9px; background: url(../images/ico3.png) no-repeat;}
+.synTab span em i.ico1.on{background: url(../images/ico2_hov.png) no-repeat;}
+.synTab span em i.ico2.on{background: url(../images/ico3_hov.png) no-repeat;}
+/***************商品详情****************/
+/*面包屑导航*/
+.crumbsDiv{ width: 100%; height: auto; min-width: 1200px; background: #f4f4f4;}
+.crumbs{ padding: 22px 0; height: auto; line-height: 18px; font-size: 12px; color: #999;}
+.crumbs a{ display: block; float: left; color: #999;}
+.crumbs a:hover{ color: #AE4E54;}
+.crumbs span{ display: block; float: left; color: #003939;}
+.crumbs em{ display: block; float: left; margin: 0 8px; font-family: "宋体";}
+.storeLogo{ cursor: pointer; float: right;border: 1px solid #589065;}
+.storeLogo b{ display: block; padding: 0 5px;  background: #589065; height: 18px; line-height: 18px; float: left; font-weight: normal; font-size: 12px; color: #fff;}
+.storeLogo strong{ display: block; float: left; font-weight: normal; padding: 0 10px; background: #fff; height: 18px; line-height: 18px; font-size: 12px; color: #333;}
+/*商品信息*/
+.goodsInfor{ margin-top: 30px; height: auto;}
+.goodsImg{ width: 190px; height: auto; border: 1px solid #f0f0f0;}
+.goodsImg img{ display: block; width: 100%; height: 190px;}
+.goodsMain{ padding-top: 9px; width: 948px;}
+.goodsMain h2{ line-height: 22px; padding: 2px 0; font-size: 18px; color: #333;}
+.goodsMain ul{ margin-top: 14px; width: 100%; height: auto;}
+.goodsMain ul li{ font-size: 14px; padding: 9px 38px 9px 0; width: 910px; height: auto; float: left;}
+.goodsMain ul li .price{ position: relative; overflow: hidden; background: #F4F5FA; padding: 9px 20px;}
+.goodsMain ul li .price label{ padding-left: 0;}
+.goodsMain ul li .price span{ float: left; display: inline-block; height: 32px; line-height: 32px; color: #AE4E54;}
+.goodsMain ul li .price span em{ display: inline-block; font-size: 24px;}
+.goodsMain ul li label{ width: 56px;justify-content: space-between; margin-right: 14px; padding-left: 20px; display: block; float: left; height: 32px; line-height: 32px; color: #999;text-align:justify;
+  text-justify:distribute-all-lines;/*ie6-8*/
+  text-align-last:justify;/* ie9*/
+  -moz-text-align-last:justify;/*ff*/
+  -webkit-text-align-last:justify;/*chrome 20+*/}
+.goodsMain ul li label em{ display: inline-block; width: 2em; height: 1px;}
+.goodsMain .salesDiv{ position: absolute; right: 0; top: 5px; text-align: center; width: 122px; font-size: 14px; color: #585858; border-left: 1px solid #fff;}
+.goodsMain .salesDiv b{ height: 20px; line-height: 20px; display: block; text-align: center; font-weight: normal;}
+.goodsMain ul li p{ float: left; width: 820px; padding: 5px 0; line-height: 22px; font-size: 14px; color: #151515;}
+.colorDiv{ width: 820px; height: auto; float: left;}
+.colorDiv span{cursor: pointer; padding: 0 8px 0 48px; float: left; margin-right: 10px; background: #efefef; display: block; height: 40px; line-height: 40px; border: 1px solid #f0f0f0; position: relative; font-size: 12px; color: #333;}
+.colorDiv span img{ display: block; width: 40px; height: 40px; position: absolute; left: 0; top: 0;}
+.versionDiv,.payWay{ width: 820px; height: auto; float: left;}
+.versionDiv span,.payWay span{cursor: pointer; border: 1px solid #f0f0f0; display: block; float: left; height: 30px; padding: 0 14px; line-height: 30px; font-size: 12px; color: #333; margin-right: 10px;}
+.versionDiv span.on,.payWay span.on,.colorDiv span.on{ border: 1px solid #AE4E54;}
+/*数量加减*/
+.trdiv{ width: 138px; height: 32px; border: 1px solid #d1d1d1; float: left;}
+.trdiv button{ cursor: pointer; font-size: 18px; color: #333; width: 30px; height: 32px; float: left; background: #fff;}
+.trdiv button.button2{ font-size: 22px;}
+.trdiv button:hover,.trdiv button:active{ color: #AE4E54;}
+.trdiv .qty_item{ border-left: 1px solid #d1d1d1; font-size: 18px; color: #333; border-right: 1px solid #d1d1d1; width: 76px; height: 32px; line-height: 32px; text-align: center; float: left;}
+
+.btnBox{ width: 100%; height: auto; overflow: hidden;}
+.btnBox a{ display: block; margin-right: 10px; float: left; width: 118px; height: 44px; line-height: 44px; border: 1px solid #AE4E54; background: #AE4E54; text-align: center; font-size: 18px; color: #fff;}
+.btnBox a.joinCat{ width: 138px; color: #999; background: #fff; border: 1px solid #f0f0f0;}
+.btnBox a.joinCat:hover{background: #fff; border: 1px solid #AE4E54; color: #AE4E54;}
+.btnBox a:hover{ background: #ce5d64; border: 1px solid #ce5d64;}
+/*商品详情*/
+.goodsDetails{ margin-top: 52px;}
+.goodsTop{ border: 1px solid #f0f0f0; height: auto;}
+.goodsTop .goodsTab{ height: 41px; background: #F9F9F9;}
+.goodsTop .goodsTab span{ position: relative; z-index: 10; margin-top: -1px; display: block; float: left; border-top: 2px solid #AE4E54; height: 40px; line-height: 40px; padding: 0 42px; background: #fff; font-size: 18px; color: #585858;}
+.goodsBox{ padding: 40px 48px; height: auto; font-size: 12px; color: #333;}
+.goodsBox h2{ line-height: 18px;}
+.goodsBox ul{ width: 100%; height: auto; overflow: hidden;}
+.goodsBox ul li{ width: 310px; margin-right: 15px; float: left;}
+.goodsBox ul li p{ line-height: 18px;}
+.goodsBom{ width: 100%; height: auto;}
+.goodsBom span{ display: block;}
+.goodsBom span img{ display: block; margin: 0 auto; max-width: 100%;}
+/***************购物车****************/
+.cartContent{ padding-top: 18px; background: #fff;}
+.cartTop{ padding-bottom: 16px; width: 100%; height: auto; overflow: hidden;}
+.cartTop p{ float: left; padding-left: 30px; background: url(../images/ico4.png) 0 center no-repeat; height: 24px; line-height: 24px; font-size: 12px; color: #999;}
+.cartTop a{ margin-left: 10px; display: block; height: 22px; width: 78px; border: 1px solid #AE4E54; border-radius: 2px; text-align: center; line-height: 22px; float: left;font-size: 12px; color: #AE4E54;}
+.cartTop a:hover{ background: #AE4E54; color: #FFF;}
+
+.tableCart tr th{ height: 40px; font-weight: normal; background: #F9F9F9; font-size: 12px; color: #333;}
+
+.tableCartIn{ border-top: 2px solid #AE4E54; padding-bottom: 28px;}
+.tableCartIn tr th{ height: 48px; text-align: left;}
+.tableCartIn tr th,.tableCartIn tr td{ border-bottom: 1px solid #f0f0f0;}
+.tableCartIn tr th{ background: #fff;}
+.tableCartIn tr td{ font-size: 12px; color: #333; padding: 30px 0;}
+.tableCartIn tr.on td{background: #F4F5FA;}
+.tableCartIn tr th p{ float: left; padding-left: 40px; position: relative; height: 26px; font-size: 14px; color: #333; line-height: 26px;}
+.tableCartIn tr th p a{ color: #333;}
+.tableCartIn tr th p a:hover{ color: #AE4E54;}
+.tableCartIn tr th p img{ display: block; width: 26px; height: 26px; position: absolute; left: 0; top: 0;}
+.tableCartIn tr th p span{ margin-left: 10px; display: inline-block; padding: 0 6px; height: 20px; line-height: 20px; background: #589065; font-size: 12px; color: #fff;}
+.tableCartIn label{font-size: 12px; color: #999; cursor: pointer; margin-left: 15px; display: block; background: url(../images/ico5.png) 0 center no-repeat; height: 14px; line-height: 14px; padding-left: 22px; position: relative;}
+.tableCartIn label.on{ background: url(../images/ico5_hov.png) no-repeat;}
+.tableCartIn label input{cursor: pointer; filter:alpha(opacity=0);opacity:0; width: 14px; height: 14px; position: absolute; left: 0; top: 0;}
+.storeCart{display: block; width: 100%; height: auto; overflow: hidden; font-size: 12px; color: #333;}
+.storeCart img{ float: left; display: block; width: 80px; height: 80px; border: 1px solid #e3e3e5;}
+.storeCart p{ padding-top: 12px; margin-left: 30px; float: left; width: 350px; line-height: 18px;}
+.storeCart:hover{ color: #AE4E54;}
+.priceGood span{ height: 18px; line-height: 18px; padding-bottom: 8px; text-align: center; display: block;}
+.priceGood em{ margin: 0 auto; display: block; width: 34px; height: 18px; line-height: 18px; text-align: center; border: 1px solid #AE4E54; color: #AE4E54;}
+.numberGood .trdiv { margin: 0 auto; float: initial; overflow: hidden; width: 102px; height: 22px;}
+.numberGood .trdiv button{ width: 23px; height: 22px; line-height: 20px;}
+.numberGood .trdiv .qty_item{ width: 54px; height: 22px; line-height: 22px; font-size: 14px; color: #333;}
+.numberGood em{ display: block; margin-top: 4px; text-align: center; line-height: 18px;}
+.tableCartIn .total{ display: block; height: 40px; text-align: center; line-height: 18px;}
+.tableCartIn .deleteBtn{ display: block; text-align: center; height: 40px; line-height: 18px ;}
+.tableCartIn .deleteBtn:hover{ color: #AE4E54;}
+.setetlement{ width: 100%; height: auto; overflow: hidden;}
+.setetlement .deleteGood{cursor: pointer; display: block; float: left; margin-left: 30px; line-height: 50px; font-size: 12px; color: #999;}
+.setetlement .emptyGood{cursor: pointer; display: block; float: left; margin-left: 30px; line-height: 50px; font-size: 12px; color: #333;}
+.settR .goodsNum{ margin-right: 36px; display: block; float: left; line-height: 50px; font-size: 12px; color: #999;}
+.settR .goodsNum b{ color: #151515; display: inline-block; padding: 0 5px; font-weight: normal;}
+.settR .totalPriceBtn{ margin-right: 46px; display: block; float: left; font-size: 12px; color: #333;}
+.settR .totalPriceBtn em{display: block; float: left;line-height: 50px; font-size: 24px; color: #AE4E54;}
+.settR .totalPriceBtn b{ font-weight: normal; display: block; float: left; line-height: 50px;}
+.settR a{ display: block; float: left; width: 98px; height: 50px; background: #AE4E54; line-height: 50px; text-align: center; font-size: 18px; color: #fff;}
+/*购物车 无数据*/
+.cartNoData{ display: none; padding: 5px 0 5px 100px; margin: 210px auto; width: 450px; background: url(../images/icon5.png) 0 5px no-repeat;}
+.cartNoData p{ line-height: 26px; font-size: 18px; color: #333;}
+.cartNoData h2{ margin-top: 4px; height: auto;}
+.cartNoData h2 a{ margin-right: 20px; display: inline-block; height: 28px; line-height: 28px; font-size: 12px; color: #4A90E2;}
+.cartNoData h2 a.loginCart{ width: 80px; background: #AE4E54; text-align: center; color: #fff;}
+.cartNoData h2 a em{ display: inline-block; padding-left: 8px; font-family: "宋体";}
+.cartNoData h2 a.loginCart:hover{ background: #ce5d64; color: #fff; border-bottom: 1px solid #ce5d64;}
+.cartNoData h2 a:hover{ color: #AE4E54;}
+/***************结算页****************/
+.settDiv{ padding: 16px 0 100px;}
+/*收货人信息*/
+.consignee,.payWayDiv,.deliveryList,.settBox{ border: 1px solid #EFEFEF; padding: 16px 30px;}
+.titleOne{ width: 100%; height: auto; overflow: hidden; font-size: 14px;}
+.titleOne em{ display: block; height: 18px; line-height: 18px; float: left; color: #333;}
+.titleOne a{cursor: pointer; display: block; height: 18px; line-height: 18px; float: right; font-size: 12px; color: #3084C2;}
+.addressList{ margin-top: 20px; width: 100%; height: auto;}
+.addressList li{cursor: pointer; margin-bottom: 10px; width: 1108px; margin-left: 30px; height: auto; float: left;}
+.addressList li .addreDiv{ float: left; border: 1px solid #EFEFEF; width: 118px; height: 26px; line-height: 26px; text-align: center; font-size: 12px; color: #999;}
+.addressList li p{ margin-left: 10px; float: left; height: 20px; padding: 4px 0; line-height: 20px; font-size: 12px; color: #999;}
+.addressList li p em,.addressList li p strong,.addressList li p b,.addressList li p span{ font-weight: normal; display: block; float: left;}
+.addressList li p strong{ width: 60px; margin-right: 5px;}
+.addressList li p em{ margin-right: 8px;}
+.addressList li p b{ margin-left: 46px; margin-right: 22px;}
+.addressList li p span{ background: #A5A6A9; padding: 0 6px; height: 20px; font-size: 12px; color: #fff;}
+.addressList li .addreBtn{ margin-right: 20px; float: right;}
+.addressList li .addreBtn a{ cursor: pointer; display: block; padding: 0 5px; margin: 0 5px; float: left; height: 28px; line-height: 28px; font-size: 12px; color: #999;}
+.addressList li .addreBtn a.editBtn{ color: #333;}
+.addressList li.on{ background: #F4F5FA;}
+.addressList li.on .addreDiv { background: #fff; width: 116px; height: 24px; line-height: 24px; border: 2px solid #AE4E54; color: #333;}
+.addressList li.on p{ color: #333;}
+.titleOne a:hover,.moreAddress a:hover{ color: #AE4E54;}
+.addressList li .addreBtn a:hover{ color: #3084C2;}
+.moreAddress{ padding-top: 10px; padding-left: 30px; height: auto;}
+.moreAddress a{ display: inline-block; height: 18px; line-height: 18px; font-size: 12px; color: #585858;}
+/*支付方式*/
+.payWayDiv{ border-top: none;}
+.payMain{ padding: 16px 30px 0; height: auto;}
+.payMain .payLeft{ width: 300px; height: auto;}
+.payMain .payLeft span{ display: block; border: 2px solid #AE4E54; width: 76px; height: 24px; line-height: 24px; text-align: center; font-size: 12px; color: #333;}
+.payMain .payLeft p{ margin-top: 10px; line-height: 18px; font-size: 12px; color: #999;}
+.payMain .payLeft p a{color: #3084C2;}
+.payMain .payLeft p a:hover,.payMain .payRight a:hover{ color: #AE4E54;}
+.payMain .payRight{ text-align: right;}
+.payMain .payRight p{ font-size: 12px; color: #999; line-height: 18px;}
+.payMain .payRight p span{ color: #151515;}
+.payMain .payRight a{ padding-top: 1px; display: inline-block; font-size: 12px; color: #3084C2; line-height: 18px;}
+/*送货清单*/
+.deliveryList{ border-top: none;}
+.deliveytMain{ padding: 0 30px; height: auto;}
+.deliveytMain h2{ margin-top: 30px; overflow: hidden; width: 100%;}
+.deliveytMain h2 em{float: left; display: block; font-size: 12px; color: #999; height: 28px; line-height: 28px; margin-right: 32px;}
+.deliveytMain h2 span{ display: block; float: left; height: 24px; line-height: 24px; border: 2px solid #AE4E54; width: 120px; font-size: 12px; color: #333; text-align: center;}
+.deliverInfor{ padding: 30px 0 22px; width: 100%; height: auto;}
+.deliverInfor .deliveImg{ width: 82px; height: auto;}
+.deliverInfor .deliveImg a{ display: block; border: 1px solid #EFEFEF;}
+.deliverInfor .deliveImg a img{ display: block; width: 100%; height: 80px;}
+.deliverInfor .deliveText{ padding-top: 10px; width: 966px; height: auto;}
+.deliverInfor .deliveText p{ width: 100%; height: auto; overflow: hidden;}
+.deliverInfor .deliveText p a{ display: block; width: 348px; float: left; font-size: 12px; color: #333; line-height: 18px;}
+.deliverInfor .deliveText textarea{ width: 322px; margin-top: 12px; padding: 6px 13px; background: #f4f4f4; line-height: 18px; font-size: 12px; color: #C1C1C1;}
+.deliverInfor .deliveText p span{ display: block; margin-left: 60px; float: right; font-size: 12px; color: #333; line-height: 18px;}
+.deliverInfor .deliveText p a:hover{ color: #AE4E54;}
+.settBox{ border-top: none; text-align: right; font-size: 12px; color: #151515;}
+.settBox span{ display: inline-block; line-height: 18px;}
+.settBox span em{ display: inline-block; padding-left: 60px;}
+.settIn{ margin-top: 10px; padding: 10px 30px 20px;background: #F4F5FA;}
+.settIn p{overflow: hidden; height: 32px; line-height: 32px; font-size: 14px; color: #333;}
+.settIn p span{ float: right; font-size: 24px; color: #BA4651;}
+.settIn p em{ display: block; float: right; margin-right: 10px;}
+.settIn h6{ text-align: right; line-height: 18px; font-size: 12px; color: #151515;}
+.settIn h6 span{ display: inline-block; margin-left: 36px; color: #999;}
+.settDiv .btnBox a{ margin-right: 0; margin-top: 10px; float: right; width: 136px; height: 36px; line-height: 36px;}
+/*遮罩*/
+.deskDiv{display: none; width: 100%; height: 100%; background: url(../images/backblack30.png) repeat; position: fixed; top: 0; left: 0; z-index: 110;}
+/*新增收货人信息*/
+.layerDiv{display: none; position: fixed; z-index: 120; left: 50%; margin-left: -260px; top: 0; width: 520px; height: auto; background: #fff;}
+.layerDiv h2{ padding-left: 20px; position: relative; background: #EAEAEA; font-size: 14px; color: #333; line-height: 34px;}
+.closeDiv{cursor: pointer; position: absolute; right: 9px; top: 7px; width: 20px; height: 20px; background: url(../images/close.png) center center no-repeat; -moz-transition: all 0.3s ease-in; -webkit-transition: all 0.3s ease-in; -o-transition: all 0.3s ease-in; transition: all 0.3s ease-in;}
+.closeDiv:hover{ transform:rotate(180deg); -ms-transform:rotate(180deg); -moz-transform:rotate(180deg); -webkit-transform:rotate(180deg); -o-transform:rotate(180deg);}
+.newInforList{ padding: 26px 0 50px 30px; height: auto;}
+.newInforList li{ margin-bottom: 10px; width: 100%; height: auto; float: left;}
+.newInforList li span{ margin-right: 14px; width: 60px; display: block; float: left; height: 24px; line-height: 24px; font-size: 12px; color: #151515;}
+.newInforList li span em{ width: 10px; display: inline-block; color: #AE4E54;}
+.newInforList li .addreSelect{ padding-left: 1px; float: left;}
+.newInforList li .addreSelect select{ margin-left: -1px; width: 68px; height: 22px; border: 1px solid #EFEFEF; font-size: 12px; color: #999; float: left;}
+.prompt{ background: url(../images/prompt.png) 0 center no-repeat; margin-left: 20px; padding-left: 18px; height: 24px; line-height: 24px; float: left; font-size: 12px;color: #AE4E54;}
+.prompt1{ margin-left: 20px; height: 24px; line-height: 24px; float: left; font-size: 12px;color: #999;}
+.newInforList li .consiTxt{float: left; width: 202px; padding: 0 10px; height: 22px; border: 1px solid #EFEFEF; line-height: 22px; font-size: 12px; color: #333;}
+.newInforList li .consiBut{ margin-top: 8px; float: left; margin-left: 74px; width: 110px; height: 28px; background: #AE4E54; border: 1px solid #AE4E54; border-radius: 2px; font-size: 12px; color: #fff;}
+.newInforList li .consiBut:hover{ background: #ce5d64; border: 1px solid #ce5d64;}
+/*取消订单*/
+.cancelOrderLayer{ width: 380px; margin-left: -190px;}
+.cancelOrderLayer h2{ padding: 0; text-align: center; color: #999;}
+.OrderLayerP{ margin: 22px auto 30px; width: 154px; padding-left: 64px; line-height: 24px; background: url(../images/ico7.png) 0 4px no-repeat; font-size: 14px; color: #333;}
+.goodsDele{ margin: 22px auto 30px; width: 96px; padding-left: 64px; line-height: 48px; background: url(../images/ico7.png) 0 4px no-repeat; font-size: 18px; color: #333;}
+.orderBtn{ padding-bottom: 25px; text-align: center;}
+.orderBtn span{ cursor: pointer; display: inline-block; width: 78px; height: 26px; margin: 0 10px; text-align: center; line-height: 26px; font-size: 12px; color: #999; border: 1px solid #f0f0f0; border-radius: 2px; -moz-transition: all 0.3s ease-in; -webkit-transition: all 0.3s ease-in; -o-transition: all 0.3s ease-in; transition: all 0.3s ease-in;}
+.orderBtn span.determineBtn{ border-color: #AE4E54; color: #AE4E54;}
+.orderBtn span:hover{ border-color: #AE4E54; color: #AE4E54;}
+.orderBtn span.determineBtn:hover{ border-color: #AE4E54; background: #AE4E54; color: #fff;}
+/*取消成功*/
+.layerDivOne{ padding-top: 30px; width: 340px; margin-left: -170px;}
+.layerDivOne i{ display: block; width: 42px; height: auto; margin: 0 auto;}
+.layerDivOne i img{ display: block; width: 100%; height: 32px;}
+.layerDivOne p{ padding: 20px 0; line-height: 24ox; font-size: 18px; color: #333; text-align: center;}
+.layerDivOne h6{ padding: 0 0 30px; line-height: 18px; font-size: 12px; color: #999; text-align: center;}
+.layerDivOne h6 a{ color: #3084C2;}
+/***************我的订单****************/
+.orderContent{ height: auto;}
+.myOrderBox{ padding: 20px 30px 36px; background: #fff;}
+.orderTab{ width: 100%; height: auto; overflow: hidden;}
+.orderTab a{ padding-top: 10px; position: relative; display: block; float: left; margin-right: 40px; height: 22px; border-bottom: 2px solid #fff; line-height: 22px; font-size: 14px; color: #333;}
+.orderTab a.on{ color: #AE4E54; border-color: #AE4E54;}
+.orderTab a .angleDom{ right: -15px;}
+.search{ float: right; margin-top: 4px;}
+.search .seaTxt{ float: left; width: 148px; border: 1px solid #DFDFDF; border-right: none; padding: 0 10px; height: 26px; font-size: 12px; color: #999;}
+.search .seaBut{ border: 1px solid #DFDFDF; width: 60px; height: 28px; background: #F4F4F4 url(../images/ico6.png) center center no-repeat;}
+.search .seaBut:hover{ border: 1px solid #AE4E54; background: #AE4E54 url(../images/ico6_hov.png) center center no-repeat;}
+.orderList{ padding-top: 16px; width: 100%; height: auto;}
+.listTop{ padding: 0 0 0 25px; overflow: hidden;background: #F4F4F4; border: 1px solid #F4F4F4;}
+.listTop span{ text-align: center; display: block; float: left; height: 34px; line-height: 34px; font-size: 12px; color: #666;}
+.listTop span.ico1{ text-align: left; width: 299px;}
+.listTop span.ico2{ text-align: left; width: 290px;}
+.listTop span.ico3{ width: 105px;}
+.listTop span.ico4{ width: 158px;}
+.listTop span.ico5{ width: 110px;}
+.listTop span.ico6{ width: 151px;}
+.listTop span.ico7{ width: 649px;}
+.orderList{ width: 100%; height: auto;}
+.orderList li{ margin-top: 20px; height: auto; border: 1px solid #f0f0f0;}
+.orderList li .orderId{ padding-left: 25px; height: 34px; line-height: 34px; font-size: 12px; background: #F9F9F9; overflow: hidden;}
+.orderList li .orderId span{ margin-right: 60px; display: block; float: left; color: #999;}
+.orderList li .orderId em{ display: block; float: left; color: #333;}
+.orderMain{ padding: 24px 0 20px 25px; height: auto; overflow: hidden; font-size: 12px;}
+.orderMain .orderInfor{ float: left; width: 589px; height: 100px;}
+.orderMain .orderConsi{ float: left; width: 104px; text-align: center; padding-top: 5px; border-left: 1px dashed #f0f0f0; height: 100px;}
+.orderMain .orderMoney{ float: left; width: 157px; text-align: center; padding-top: 5px; border-left: 1px dashed #f0f0f0; height: 100px;}
+.orderMain .orderState{ float: left; width: 109px; text-align: center; padding-top: 5px; border-left: 1px dashed #f0f0f0; height: 100px;}
+.orderMain .orderHandle{ float: left; width: 150px; text-align: center; padding-top: 5px; border-left: 1px dashed #f0f0f0; height: 100px;}
+.orderMain .orderInfor .orderImg{ width: 82px; height: auto; float: left;}
+.orderMain .orderInfor .orderImg a{ display: block; border: 1px solid #f0f0f0;}
+.orderMain .orderInfor .orderImg a img{ display: block; width: 100%; height: 80px;}
+.orderMain .orderInfor .orderTxt{ padding-top: 5px; float: left; width: 440px; margin-left: 30px;}
+.orderMain .orderInfor .orderTxt p{ position: relative; width: 100%; height: auto;}
+.orderMain .orderInfor .orderTxt p a{ display: block; width: 274px; line-height: 18px; color: #333;}
+.orderMain .orderInfor .orderTxt p a:hover{ color: #AE4E54;}
+.orderMain .orderInfor .orderTxt p span{ display: block; position: absolute; right: 0; top: 0; line-height: 18px; color: #999;}
+.orderMain .orderInfor .orderTxt h6{ margin-top: 14px; line-height: 18px; color: #999;}
+.orderMain .orderConsi span{ display: block; line-height: 18px; color: #333;}
+.orderMain .orderMoney h6{ width: 120px; height: 18px; overflow: hidden; margin: 0 auto; color: #999; line-height: 18px; }
+.orderMain .orderMoney p{ padding-top: 2px; color: #5c5c5c; line-height: 18px;}
+.orderMain .orderMoney h5{ border-top: 2px solid #f5f5f5; width: 100px; margin: 6px auto 0; color: #999; line-height: 18px; padding-top: 7px;}
+.orderMain .orderState span{ display: block; text-align: center; color: #F5A623; line-height: 18px;}
+.orderMain .orderState span.cancelBox{ color: #999;}
+.orderMain .orderState a{ display: block; margin-top: 10px; text-align: center; color: #ccc; line-height: 18px;}
+.orderMain .orderState a:hover{ color: #333;}
+.orderMain .orderHandle a{ display: block; width: 98px; height: 26px;border: 1px solid #EFEFEF; background: #f6f6f6; margin: 0 auto 7px; color: #333; text-align: center; line-height: 26px;}
+.orderMain .orderHandle a:hover{ background: #fff; color: #AE4E54; border-color: #AE4E54;}
+.orderMain .orderHandle span{ cursor: pointer; display: block; line-height: 18px; color: #585858; -moz-transition: all 0.3s ease-in; -webkit-transition: all 0.3s ease-in; -o-transition: all 0.3s ease-in; transition: all 0.3s ease-in;}
+.orderMain .orderHandle span.deleteOrder{ margin-top: 12px; color: #999;}
+.orderMain .orderHandle span:hover{ color: #AE4E54;}
+.orderMain .orderHandle span.deleteOrder:hover{ color: #333;}
+/*分页*/
+.pagebox{ height: auto; padding: 30px 30px 0;}
+.pagebox .pagination{ float: right;}
+.pagebox .pagination li{margin: 0; float: left; height: 28px; border: none; padding: 0 15px; text-align: center; line-height: 28px; font-size: 12px; color: #333;}
+/***************订单详情****************/
+.orderDetaOne{ border-top: 3px solid #AE4E54; background: #fff; padding: 26px 50px 26px 100px;}
+.orderDetaOne .orDeLeft{ padding-right: 100px; border-right: 1px dashed #EFEFEF; width: 170px; height: auto;}
+.orderDetaOne .orDeLeft h2{ padding-top: 4px; font-size: 14px; color: #333; line-height: 20px; text-align: center;}
+.orderDetaOne .orDeLeft h3{ margin-top: 50px; font-size: 25px; color: #AE4E54; line-height: 32px; text-align: center;}
+.orderDetaOne .orDeLeft h4{ margin-top: 10px; text-align: center;}
+.orderDetaOne .orDeLeft h4 a{ display: inline-block; width: 98px; height: 26px; line-height: 26px; border: 1px solid #AE4E54; font-size: 12px; color: #AE4E54;}
+.orderDetaOne .orDeLeft h4 a:hover{ background: #AE4E54; color: #fff;}
+.orderDetaOne .orDeLeft h5{ text-align: center; margin-top: 80px;}
+.orderDetaOne .orDeLeft h5 a{ padding: 4px 0; display: inline-block; font-size: 12px; color: #999;}
+.orderDetaOne .orDeLeft h5 a:hover{color: #AE4E54;}
+.orderDetaOne .orDeRight{ width: 700px; margin-left: 30px; height: auto;}
+.orderDetaOne .orDeRight p{ line-height: 18px; font-size: 12px; color: #999;}
+.orderDetaOne .orDeRight ul{ margin-left: 100px; margin-top: 75px; background: url(../images/ico14.png) 56px 15px no-repeat; width: 600px; height: auto; overflow: hidden;}
+.orderDetaOne .orDeRight ul li{ margin-right: 128px; width: 100px; float: left;}
+.orderDetaOne .orDeRight ul li.ico2{ margin-right: 172px; width: 60px;}
+.orderDetaOne .orDeRight ul li.ico3{ margin-right: 0; width: 60px;}
+.orderDetaOne .orDeRight ul li i{ display: block; width: 40px; height: 40px; margin: 0 auto;}
+.orderDetaOne .orDeRight ul li.ico1 i{ margin-left: 4px; background: url(../images/ico11_hov1.png) no-repeat;}
+.orderDetaOne .orDeRight ul li.ico2 i{ margin: 0 auto; background: url(../images/ico12.png) no-repeat;}
+.orderDetaOne .orDeRight ul li.ico3 i{ margin: 0 auto; background: url(../images/ico13.png) no-repeat;}
+.orderDetaOne .orDeRight ul li h2{ margin-top: 30px; font-size: 14px; color: #333; height: 18px; line-height: 18px; overflow: hidden;}
+.orderDetaOne .orDeRight ul li h3{ margin-top: 3px; font-size: 12px; color: #999; height: 36px; line-height: 18px; overflow: hidden;}
+.orderDetaOne .orDeRight ul li.ico2 h2,
+.orderDetaOne .orDeRight ul li.ico3 h2{ text-align: center; color: #999;}
+/*待发货*/
+.orderDetaOne .orDeRight ul.sendGoods{background: url(../images/ico15.png) 56px 15px no-repeat;}
+.orderDetaOne .orDeRight ul.sendGoods li.ico1 i{ background: url(../images/ico11_hov.png) no-repeat;}
+.orderDetaOne .orDeRight ul.sendGoods li.ico2 i{ background: url(../images/ico12_hov.png) no-repeat;}
+.orderDetaOne .orDeRight ul.sendGoods li.ico2 h2{ color: #333;}
+/*已完成*/
+.orderDetaOne .orDeRight ul.beenCompleted{background: url(../images/ico16.png) 56px 15px no-repeat;}
+.orderDetaOne .orDeRight ul.beenCompleted li.ico1 i{ background: url(../images/ico11_hov.png) no-repeat;}
+.orderDetaOne .orDeRight ul.beenCompleted li.ico2 i{ background: url(../images/ico12_hov.png) no-repeat;}
+.orderDetaOne .orDeRight ul.beenCompleted li.ico3 i{ background: url(../images/ico13_hov.png) no-repeat;}
+.orderDetaOne .orDeRight ul.beenCompleted li.ico2 h2,
+.orderDetaOne .orDeRight ul.beenCompleted li.ico3 h2{ color: #333;}
+
+
+
+/*订单收货人信息*/
+.orderDeraTwo{ background: #fff; margin-top: 20px;}
+.orderDeraTwo ul{ width: 100%; padding: 20px 0; height: auto; overflow: hidden;}
+.orderDeraTwo ul li{ border-right: 1px dashed #EFEFEF; width: 271px; padding: 10px 0 10px 100px; float: left;}
+.orderDeraTwo ul li h2{ margin-bottom: 20px; font-size: 14px; color: #333; line-height: 20px;}
+.orderDeraTwo ul li p{ font-size: 12px; color: #666; line-height: 20px;}
+.orderDeraThree{ padding: 0 0 36px; background: #fff;}
+.orderDeta{ background: #f4f4f4; padding: 13px 0 13px 36px; position: relative; font-size: 14px; color: #585858; line-height: 18px;}
+.orderDeta img{ display: block; width: 26px; height: 26px; position: absolute; left: 0; top:50%; margin-top: -13px;}
+
+.orderDeraThree .orderList li{ margin: 0; border: none;}
+.orderDeraThree .orderList li .listTop{  border: 1px solid #efefef; border-bottom: none; background: #F9F9F9;}
+.orderDeraThree .orderMain{border: 1px solid #efefef; border-top: none;}
+.orderDeraThree .orderMain .orderInfor{ width: 649px;}
+.orderDeraThree .orderMain .orderInfor .orderTxt p a{ width: 345px;}
+.orderBom{ padding-top: 18px; padding-right: 30px; text-align: right;}
+.orderBom h2{overflow: hidden; font-size: 12px; line-height: 18px; color: #585858;}
+.orderBom h2 span{ width: 170px; float: right; display: inline-block;}
+.orderBom h3{overflow: hidden; font-size: 12px; line-height: 32px; color: #AE4E54;}
+.orderBom h3 span{ width: 170px; float: right; font-size: 24px; display: inline-block; color: #AE4E54;}
+.orderBom h2 em,.orderBom h3 em{ display: block; float: right;}
+/***************店铺首页****************/
+.storeTopDiv{ width: 100%; height: auto; background:#f4f4f4 url(../images/ico17.png) repeat; background-size: 8px auto;}
+.storeTop{ padding: 30px 0;}
+.storeTop .storetopLeft{ height: auto;}
+.storeTop .storetopLeft .storeTLImg{ width: 60px; height: auto;}
+.storeTop .storetopLeft .storeTLImg a{ display: block;}
+.storeTop .storetopLeft .storeTLImg img{ display: block; width: 100%; height: 60px;}
+.storeTop .storetopLeft .storeTLTxt{ padding-top: 3px; width: 170px; margin-left: 30px;}
+.storeTop .storetopLeft .storeTLTxt h2{ height: 26px; line-height: 26px; font-size: 24px; color: #666;}
+.storeTop .storetopLeft .storeTLTxt p{ overflow: hidden; font-size: 18px; color: #2A2A2A;}
+.storeTop .storetopLeft .storeTLTxt p span{ display: block; float: left; line-height: 28px;}
+.storeTop .storetopLeft .storeTLTxt p em{ display: block; float: left; border: 1px solid #AE4E54; margin: 5px 0 0 6px; border-radius: 50px; padding: 0 8px; line-height: 18px; font-size: 12px; color: #AE4E54;}
+.storeTop .flagBom{ background: none;}
+.storeInforDiv{ background: #181B2A; width: 100%; min-width: 1200px; height: auto;}
+.storeInfor{ padding: 16px 0; height: auto;}
+.storeInfor ul{ width: 100%; height: auto; float: left;}
+.storeInfor ul li{ border-bottom: 1px solid #20253a; width: 500px; height: auto; float: left; margin-right: 65px; font-size: 12px; color: #9B9B9B;}
+.storeInfor ul li label,.storeInfor ul li span,.storeInfor ul li a{ display: block; float: left;}
+.storeInfor ul li label,.storeInfor ul li span{ height: 36px; line-height: 36px;}
+.storeInfor ul li label{ width: 84px;}
+.storeInfor ul li label i{ display: inline-block; width: 2em; height: 1px;}
+.storeInfor ul li p{ width: 416px; float: left; line-height: 24px; padding: 6px 0;}
+.storeInfor ul li a{ width: 16px; margin-top: 11px; height: 14px; margin-right: 15px;}
+.storeInfor ul li a.ico1{ background: url(../images/ico22.png) no-repeat;}
+.storeInfor ul li a.ico2{ background: url(../images/ico23.png) no-repeat;}
+.storeInfor ul li a.ico3{ background: url(../images/ico24.png) no-repeat;}
+.storeInfor ul li a.ico1:hover{ background: url(../images/ico22_hov.png) no-repeat;}
+.storeInfor ul li a.ico2:hover{ background: url(../images/ico23_hov.png) no-repeat;}
+.storeInfor ul li a.ico3:hover{ background: url(../images/ico24_hov.png) no-repeat;}
+/*banner*/
+.storeBanner{ width: 100%; height: auto; min-width: 1200px;}
+.storeBanner a{ display: block;}
+.storeBanner img{ display: block; width: 100%; height: auto;}
+/*新品快递*/
+.delivery{ height: auto; padding-bottom: 50px;}
+.titleTwo{ padding: 75px 0 26px; width: 100%; height: auto; text-align: center;}
+.titleTwo h2{ height: 48px; line-height: 48px; font-size: 36px; color: #333;}
+.titleTwo h2 span{position: relative; display: inline-block; padding: 0 62px;}
+.titleTwo h2 span i{background: url(../images/ico18.png) 0 14px no-repeat; display: block; width: 60px; height: 100%; position: absolute; left: 0; top: 0;}
+.titleTwo h2 span i.ico2{ left: auto; right: 0;background: url(../images/ico19.png) right 14px no-repeat;}
+.titleTwo p{ line-height: 20px; font-size: 14px; color: #999;}
+.delivery ul{ width: 100%; height: auto; overflow: hidden;}
+.delivery ul li{ margin-bottom: 20px; width: 100%; height: auto; position: relative;}
+.delivery ul li .deliImg{ display: block; width: 100%; height: 294px;}
+.deliveryMain{ padding: 0 80px 0 50px; width: 1070px; position: absolute; left: 0; bottom: 33px;}
+.deliveryMain .deliveryMainLeft{ width: 490px; height: auto;}
+.deliveryMain .deliveryMainLeft h2{ padding-left: 60px; position: relative;}
+.deliveryMain .deliveryMainLeft h2 img{ display: block; width: 40px; height: 40px; position: absolute; left: 0; top: 0;}
+.deliveryMain .deliveryMainLeft span{ display: block; width: 100%; height: 40px; line-height:40px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; font-size: 24px; color: #fff;}
+.deliveryMain .deliveryMainLeft p{margin-top: 18px; font-size: 14px; color: #cccccc; line-height: 20px; height: 60px; overflow: hidden;}
+.deliveryMain .deliveryMainLeft h3{ height: auto; margin-top: 16px;}
+.deliveryMain .deliveryMainLeft h3 a{ display: block; width: 66px; height: 22px; border: 1px solid #A5A6A9; color: #A5A6A9; text-align: center; line-height: 22px;}
+.deliveryMain .deliveryMainLeft h3 a:hover{ background: #fff; border-color: #fff; color: #AE4E54;}
+.deliveryMain .deliveryMainRight{ width: 436px; background: #fff; padding: 20px 22px; height: auto; border: 1px solid #f5f5f5;}
+.deliveryMain .deliveryMainRight .deliMainRiImg{ width: 120px; height: 120px;}
+.deliveryMain .deliveryMainRight .deliMainRiImg a{ display: block; border: 1px solid #d0d0d0;}
+.deliveryMain .deliveryMainRight .deliMainRiImg a img{ display: block; width: 100%; height: 100%;}
+.deliveryMain .deliveryMainRight .deliMainRiTxt{ width: 290px; height: auto;}
+.deliveryMain .deliveryMainRight .deliMainRiTxt h2{ width: 100%; height: auto;}
+.deliveryMain .deliveryMainRight .deliMainRiTxt h2 a{display: block; height: auto; line-height: 18px; font-size: 12px; color: #333;}
+.deliveryMain .deliveryMainRight .deliMainRiTxt h2 a:hover{ color: #AE4E54;}
+.deliveryMain .deliveryMainRight .deliMainRiTxt p{ line-height: 18px; height: 18px; overflow: hidden; font-size: 12px; color: #3F3F3F;}
+.deliveryMain .deliveryMainRight .deliMainRiTxt h4{ margin-top: 8px; height: auto; line-height: 28px; font-size: 20px; color: #AE4E54;}
+.deliveryMain .deliveryMainRight .deliMainRiTxt h3{ margin-top: 6px; height: auto;}
+.deliveryMain .deliveryMainRight .deliMainRiTxt h3 a{ display: inline-block; border: 1px solid #4A90E2; width: 66px; height: 22px; font-size: 12px; color: #4A90E2; text-align: center; line-height: 22px; border-radius: 3px;}
+.deliveryMain .deliveryMainRight .deliMainRiTxt h3 a:hover{ background: #4A90E2; color: #fff;}
+/*热卖推荐*/
+.sellOneDiv{ width: 100%; padding-bottom: 58px; height: auto; min-width: 1200px; background:#f4f4f4 url(../images/ico17.png) repeat; background-size: 10px auto;}
+.sellOne ul{ padding-top: 20px; width: 100%; height: auto; overflow: hidden;}
+.sellOne ul li{ margin-bottom: 26px; position: relative; width: 590px; height: auto; float: left;}
+.sellOne ul li a{ display: block;}
+.sellOne ul li a img{ display: block; width: 100%; height: 280px;}
+/*.sellOne ul li .sellImg{ display: block; width: 100%; height: 280px;}
+.sellOne ul li span{ position: absolute; left: 10px; top: 10px; display: block; height: 26px; line-height: 26px; font-size: 18px; color: #fff;}
+.sellOne ul li .sellMain{ padding: 8px 0; width: 410px; position: absolute; left: 50%; margin-left: -205px; bottom: 22px; background: url(../images/backblack30.png) repeat;}
+.sellOne ul li .sellMain h2{ height: 44px; line-height: 44px; width: 370px; margin: 0 auto; font-size: 24px; color: #f7f6f4; text-align: center;}
+.sellOne ul li .sellMain p{ width: 100%; height: auto; text-align: center;}
+.sellOne ul li .sellMain p a{ display: inline-block; width: 114px; height: 40px; background: url(../images/back1.png) repeat-y; border-radius: 6px; font-size: 20px; color: #fff; line-height: 40px;}*/
+/*人气商品*/
+.popular ul{ padding: 30px 0 20px; width: 100%; height: auto;}
+.popular ul li{ width: 100%; margin-bottom: 40px; height: auto; float: left;}
+.popular ul li .popularLeft{ width: 150px; height: auto;}
+.popular ul li .popularLeft a{ display: block;}
+.popular ul li .popularLeft a img{ display: block; width: 100%; height: 304px;}
+.popular ul li .popularRight{ width: 1050px; height: auto;}
+.popular ul li .popularRight .popularItem{ width: 208px; float: left; text-align: center; position: relative; padding: 26px 0; border: 1px solid #fff; -moz-transition: all 0.3s ease-in; -webkit-transition: all 0.3s ease-in; -o-transition: all 0.3s ease-in; transition: all 0.3s ease-in;}
+.popular ul li .popularRight .popularItem:hover{border: 1px solid #f0f0f0;box-shadow: 0 0 8px #f0f0f0; }
+.popular ul li .popularRight .popularItem a{ color: #494949; display: block;}
+.popular ul li .popularRight .popularItem a:hover{ color: #AE4E54;}
+.popular ul li .popularRight .popularItem img{ display: block; width: 110px; height: 110px; margin: 0 auto;}
+.popular ul li .popularRight .popularItem h2{ margin-top: 20px; height: 18px; width: 160px; padding: 0 25px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; line-height: 18px; font-size: 12px;}
+.popular ul li .popularRight .popularItem p{ width: 160px; padding: 0 25px; height: 36px; overflow: hidden; line-height: 18px; font-size: 12px; color: #a3a3a3;}
+.popular ul li .popularRight .popularItem h3{ width: 160px; padding: 0 25px; height: 22px; line-height: 22px; font-size: 18px; color: #ae4e54;}
+/***************收银台****************/
+.checkstand{ padding-bottom: 40px; width: 100%; height: auto;width: 100%; min-width: 1200px;background:#fff url(../images/back2.png) center bottom no-repeat;}
+.checksTop{ padding: 50px 0 40px;  height: auto; }
+.checksTop .checktopLeft{ height: auto;}
+.checksTop .checktopLeft h2{ line-height: 28px; padding-left: 13px; position: relative; font-size: 20px; color: #0e0e0e;}
+.checksTop .checktopLeft h2 i{ position: absolute; left: 0; top: 50%; margin-top: -8px; display: block; width: 3px; height: 16px; background: #AE4E54;}
+.checksTop .checktopLeft p{ line-height: 22px; font-size: 14px; color: #343434;}
+.checksTop .checktopRight{ text-align: right;}
+.checksTop .checktopRight h3{ height: 28px; line-height: 28px; font-size: 12px; color: #333;}
+.checksTop .checktopRight h3 span{display: inline-block; padding: 0 5px; font-size: 24px; color: #AE4E54;}
+.checksTop .checktopRight h4{ height: 22px; line-height: 22px; font-size: 12px; color: #4A90E2;}
+.checksTop .checktopRight h4 span{cursor: pointer; display: inline-block; padding-right: 12px; position: relative; -moz-transition: all 0.3s ease-in; -webkit-transition: all 0.3s ease-in; -o-transition: all 0.3s ease-in; transition: all 0.3s ease-in;}
+.checksTop .checktopRight h4 span i{position: absolute; right: 0; top: 50%; margin-top: -1px; display: block; width: 5px; height: 4px; background: url(../images/ico20.png) 0 center no-repeat;}
+.checksTop .checktopRight h4 span.on i{ background: url(../images/ico21.png) 0 center no-repeat;}
+.checkOrderData{display: none; padding-top: 30px; width: 100%; height: auto; float: left;}
+.checkOrderData .checkOrderDataImg{ width: 82px; height: auto;}
+.checkOrderData .checkOrderDataImg a{ display: block; border: 1px solid #f0f0f0;}
+.checkOrderData .checkOrderDataImg a img{ display: block; width: 100%; height: 80px;}
+.checkOrderData .checkOrderDataTxt{ padding-top: 14px; margin-left: 30px; width: 660px; height: auto;}
+.checkOrderData .checkOrderDataTxt p{ font-size: 12px; color: #585858; line-height: 18px;}
+/*在线支付 安全便捷*/
+.paymentDiv{ padding-top: 30px; border-top: 3px solid #589065; background: #fff;box-shadow: 0 0 20px 0 rgba(213,213,213,0.42);}
+.paymentDiv h1{ line-height: 36px; font-weight: bold; font-size: 30px; color: #333; text-align: center;}
+.paymentDiv h2{ margin-bottom: 42px; line-height: 44px; font-size: 30px; color: #151515; text-align: center;}
+.paymentOne{ margin: 0 30px; padding: 30px 30px 5px; border-top: 1px solid #f0f0f0;}
+.paymentOne .payOneLeft{ width: 220px; height: auto;}
+.paymentOne .payOneLeft img{ display: block; width: 100%; height: 80px;}
+.paymentOne .payOneLeft h2{ padding-top: 14px; width: 100%; height: auto; overflow: hidden;}
+.paymentOne .payOneLeft h2 span{ display: block; float: left; height: 18px; line-height: 18px; font-size: 12px; color: #999;}
+.paymentOne .payOneLeft h2 strong{ font-weight: normal; display: block; float: right; height: 18px; line-height: 18px; font-size: 12px; color: #999;}
+.paymentOne .payOneLeft h2 span em{ display: inline-block; padding: 0 5px; color: #151515;}
+.paymentOne .payOneLeft h2 strong a{ display: inline-block; color: #4A90E2;}
+.paymentOne .payOneLeft h2 strong a:hover{ color: #AE4E54;}
+.paymentOne .payOneRight{ padding-top: 24px;}
+.paymentOne .payOneRight h2{ font-size: 12px; color: #333;}
+.paymentOne .payOneRight h2 span{ display: inline-block; padding: 0 5px; height: 28px; line-height: 28px; font-size: 24px; color: #AE4E54;}
+.paymentTwo p{ line-height: 18px; font-size: 12px; color: #999;}
+.passwordDiv{ position: relative; margin-top: 5px; overflow: hidden; height: auto; }
+.passwordDiv .password{ background: #f9f9f9; border-radius: 4px; float: left; width: 38px; height: 38px; margin-right: 2px; border: 1px solid #f0f0f0; line-height: 20px; text-align: center; font-size: 20px; color: #333; }
+.passwordDiv .password.on{ background: #fff;}
+.passwordDiv a{ float: left; margin-top: 22px; margin-left: 20px; display: block; line-height: 18px; height: 18px; font-size: 12px; color: #4A90E2;}
+.passwordDiv a:hover{ color: #AE4E54;}
+.payBtn{ position: relative; height: auto; padding: 32px 0 35px;}
+.payBtn input{background: #9B9B9B; width: 220px; height: 50px; font-size: 20px; color: #fff; }
+.payBtn input:hover{ color: #fff; background: #AE4E54;}
+.payBtn span{ position: absolute; left: 0; top: 10px; padding-bottom: 4px; display: none; font-size: 12px; color: #AE4E54; line-height: 18px;}

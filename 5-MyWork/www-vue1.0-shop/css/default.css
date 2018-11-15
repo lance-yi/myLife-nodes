@@ -1,0 +1,64 @@
+﻿/** reset **/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td, img{border:medium none;margin: 0;padding: 0;}
+body,button, input, select, textarea{font: 12px/1.5 'Microsoft Yahei',tahoma, Srial, helvetica, sans-serif;}
+h1, h2, h3, h4, h5, h6{font-size: 100%;font-weight: normal;}
+em{font-style:normal;}
+ul, ol{list-style: none;}
+
+a{ text-decoration: none;color:#333; text-decoration: none; -moz-transition: all 0.3s ease-in; -webkit-transition: all 0.3s ease-in; -o-transition: all 0.3s ease-in; transition: all 0.3s ease-in; }
+a:hover{
+	text-decoration: none;
+	-moz-transition: all 0.3s ease-in;
+	-webkit-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+}
+/*火狐去掉按钮、连接的虚线*/
+a:focus, a:active,
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+select::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+border: 0;
+outline : 0;
+} 
+
+input,button,select,textarea
+
+{
+    outline:none;
+	/*-webkit-appearance:none;*/
+
+}
+
+textarea
+
+{
+
+     resize:none;
+
+}
+a { text-decoration: none; color: #333; }
+a{blr:expression(this.onFocus=this.blur());}
+a:focus{outline:none;}
+a.hidefocus{outline:none}
+/*苹果手机按钮默认样式  去掉*/
+ input[type="button"], input[type="submit"], input[type="reset"] {
+
+-webkit-appearance: none;
+ border-radius: 0;
+
+}
+.button{ border-radius: 0; }
+input{font-family: "微软雅黑";}
+textarea{font-family: "微软雅黑";}
+img{border:0px;  outline-width:0px;  vertical-align:top;}
+.cleafix:after{clear:both;content:"\200B";display:block;height:0;}
+.cleafix{*zoom:1;}
+.fl { float:left;}
+.fr { float:right;}
+.w1200{ width:1200px; margin:0 auto;}
+.hide { display:none;}
+input[type=button]{ cursor: pointer; -moz-transition: all 0.3s ease-in; -webkit-transition: all 0.3s ease-in; -o-transition: all 0.3s ease-in; transition: all 0.3s ease-in;}
