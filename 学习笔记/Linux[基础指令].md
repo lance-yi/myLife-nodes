@@ -1,7 +1,7 @@
 
 ### 基础指令
 
-> 显示日期不时间的挃令： date
+> 显示日期不时间的指令： date
 
 ```bash
 [root@localhost ~]# date
