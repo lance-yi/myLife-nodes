@@ -35,4 +35,4 @@ Tue May  7 15:11:26 CST 2019
 
 > man page 通用按键
 
-![按键整理](./Linux/linux-manpage.png)
+![按键整理](./images/linux-manpage.png)
